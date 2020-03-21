@@ -107,9 +107,9 @@ h6 {
 --------------------------------*/
 
 .section-header {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .section-header::before {
@@ -118,7 +118,6 @@ h6 {
     display: block;
     width: 60px;
     height: 5px;
-    background: #f82249;
     bottom: 0;
     left: calc(50% - 25px);
 }
@@ -196,7 +195,7 @@ h6 {
 #header #logo img {
     padding: 0;
     margin: 0;
-    max-height: 40px;
+    max-height: 70px;
 }
 
 
@@ -270,7 +269,7 @@ h6 {
 
 #nav-menu-container {
     float: right;
-    margin: 0;
+    margin: 25px;
 }
 
 
@@ -770,7 +769,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details {
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 #speakers-details .details h2 {
@@ -1448,7 +1447,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-    height: 40px;
+    height: 120px;
     margin-bottom: 10px;
 }
 
@@ -1706,5 +1705,20 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-bottom: 2px solid #efefef;
     box-shadow: 0px 3px 2px 0px #efefef;
     border-radius: 0;
+    box-sizing: inherit;
     padding: 10px 10px 10px 10px;
+}
+
+.title-theme {
+    color: #fff !important;
+    background-color: #73AD21 !important;
+}
+
+.title-container {
+    padding: 0.01em 16px;
+    text-align: center;
+}
+
+#title-container h1 {
+    color: #ffffee;
 }

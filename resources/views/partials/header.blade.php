@@ -2,12 +2,7 @@
   <div class="container">
 
     <div id="logo" class="pull-left">
-      <h1>
-        <a href="{{ route('home') }}#intro">
-          <span><i href="" aria-hidden="true"></i></span>
-          {{ env('APP_NAME', 'GHANA') }}
-        </a>
-      </h1>
+        <a href="{{route('home')}}"><img src="img/logo.png" alt="Logo"></a>
     </div>
 
     <nav id="nav-menu-container">

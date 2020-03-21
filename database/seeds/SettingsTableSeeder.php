@@ -10,11 +10,11 @@ class SettingsTableSeeder extends Seeder
         $settings = [
             [
                 'key'   => 'title',
-                'value' => 'GHANA<br><span>BADMINTON</span>TODAY'
+                'value' => '<span>BADMINTON</span>TODAY'
             ],
             [
                 'key'   => 'subtitle',
-                'value' => 'DISCOVER BADMINTON'
+                'value' => ''
             ],
             [
                 'key'   => 'youtube_link',

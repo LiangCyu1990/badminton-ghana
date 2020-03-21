@@ -12,7 +12,8 @@
         public function index(){
 
             $settings = Setting::pluck('value', 'key');
-            $school = School::all();
-            return view('school',compact('settings','school'));
+            $schools = School::all();
+            var_dump($schools);
+            return view('schools',compact('settings','schools'));
         }
     }

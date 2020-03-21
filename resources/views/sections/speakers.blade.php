@@ -8,7 +8,7 @@
     <div class="row">
                 <div class="col-sm-12 bad-discover">
                   <div >
-                    <a href="/w3images/lights.jpg" target="_blank">
+                    <a href="{{route('school.index')}}" target="_blank">
                       <img src="{{ $speaker->photo->getUrl() }}" alt="Lights" style="width:100%; height=70%;">
                       <div class="caption">
                         <p>DISCOVER BADMINTON</p>

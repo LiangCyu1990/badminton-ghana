@@ -15,7 +15,7 @@ class School extends Model implements HasMedia
     public $table = 'school';
 
     protected $appends = [
-        'logo',
+        'photo',
     ];
 
     protected $dates = [
@@ -43,7 +43,7 @@ class School extends Model implements HasMedia
 
     public function getLogoAttribute()
     {
-        $file = $this->getMedia('logo')->last();
+        $file = $this->getMedia('photo')->last();
 
         if ($file) {
             $file->url       = $file->getUrl();
