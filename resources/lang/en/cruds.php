@@ -162,8 +162,8 @@ return [
         ],
     ],
     'hotel'          => [
-        'title'          => 'Hotels',
-        'title_singular' => 'Hotel',
+        'title'          => 'Group',
+        'title_singular' => 'Group',
         'fields'         => [
             'id'                 => 'ID',
             'id_helper'          => '',

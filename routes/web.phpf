@@ -1,8 +1,9 @@
 <?php
 
-
 Route::get('/', 'HomeController@index')->name('home');
+//school
 Route::get('/bd-school','SchoolController@index')->name('school.index');
+
 Route::get('speaker/{speaker}', 'HomeController@view')->name('speaker');
 Route::redirect('/home', '/admin');
 Auth::routes(['register' => false]);
@@ -29,6 +30,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('speakers/destroy', 'SpeakersController@massDestroy')->name('speakers.massDestroy');
     Route::post('speakers/media', 'SpeakersController@storeMedia')->name('speakers.storeMedia');
     Route::resource('speakers', 'SpeakersController');
+
+
 
     // Schedules
     Route::delete('schedules/destroy', 'ScheduleController@massDestroy')->name('schedules.massDestroy');

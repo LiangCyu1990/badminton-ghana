@@ -15,8 +15,8 @@ class VenuesTableSeeder extends Seeder
         $venue = Venue::create([
             'name'          => 'Downtown Conference Center, New York',
             'address'       => '157 William St, New York, NY 10038',
-            'latitude'      => '40.7101282',
-            'longitude'     => '-74.0062269',
+            'latitude'      => '5.6304311',
+            'longitude'     => '-0.0187063',
             'description'   =>  'Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.'
         ]);
 
